@@ -1,0 +1,101 @@
+body {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+/* Style de la navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #9575cd;
+    overflow: hidden;
+    border-radius: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: stretch;
+    
+
+}
+
+nav{
+    margin-top: 2px;
+    
+}
+nav ul li:first-child{
+    border-right: #F8BBD0 solid 1px;
+}
+nav ul li:last-child{
+    border-left: #F8BBD0 solid 1px;
+}
+
+nav ul li{
+    width: 100%;
+    
+    
+}
+nav ul li a:hover{
+    color: #7b1fa2;
+
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #F8BBD0;;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Footer */
+
+footer>p{
+    color: #F8BBD0;
+}
+footer {
+    background: #9575cd;
+    padding: 10px;
+    width: 100%;
+    font-size: 0.9rem;;
+    position:fixed;
+    bottom: 0;
+    
+}
+
+/* Media query pour rendre la page responsive */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    div p {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+}
+
+/* Animation d'apparition en fondu */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive pour mobile */
+@media (max-width: 768px) {
+    .welcome-title {
+        font-size: 2.5rem;
+        margin-top: 10vh;
+    }
+}

@@ -1,0 +1,31 @@
+/* Style général de la page */
+body{
+    background-color: #F8BBD0;
+    color: #7b1fa2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Contenu principal */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    flex-grow: 1;
+    
+}
+
+div p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #ede7f6;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+div>p{
+    background-color: #F8BBD0;
+}
