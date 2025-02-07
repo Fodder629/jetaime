@@ -80,6 +80,17 @@ footer {
     }
 }
 
+/* Style du H1 en grand et mignon */
+.welcome-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #7b1fa2;
+    text-align: center;
+    margin-top: 20vh;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
 /* Animation d'apparition en fondu */
 @keyframes fadeIn {
     from {
