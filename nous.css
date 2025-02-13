@@ -1,5 +1,5 @@
 html,body{
-    background-color: #F8BBD0;
+    background-color: #E57393;
     color: #7b1fa2;
 }
 
@@ -26,18 +26,4 @@ details{
     width: 90%;
     overflow: hidden;
     
-}
-
-details>p{
-    padding-block: 1rem;
-}
-
-details::details-content{
-    block-size: 0;
-    transition: block-size 1s;
-}
-
-details[open]::details-content{
-    block-size: auto;
-    transition: block-size 1s;
 }
