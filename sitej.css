@@ -1,5 +1,5 @@
 body {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Inter', cursive;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -11,7 +11,7 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    background: #9575cd;
+    background: #4B306A;
     overflow: hidden;
     border-radius: 25px;
     display: flex;
@@ -89,6 +89,7 @@ footer {
     margin-top: 20vh;
     opacity: 0;
     animation: fadeIn 2s ease-in-out forwards;
+    font-family: 'Pacifico', cursive;
 }
 
 /* Animation d'apparition en fondu */
